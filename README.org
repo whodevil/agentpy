@@ -27,3 +27,7 @@ pipenv install
 pipenv shell
 streamlit run agent.py
 #+end_src
+
+* Enabling Auth
+Create a file named auth.yaml in the root of the project and follow the instructions on
+[[https://github.com/mkhorasani/Streamlit-Authenticator][the streamlit auth page]]

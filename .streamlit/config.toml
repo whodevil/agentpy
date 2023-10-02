@@ -1,0 +1,6 @@
+[global]
+
+disableWatchdogWarning = true
+
+[client]
+toolbarMode = "minimal"
