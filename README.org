@@ -9,9 +9,21 @@ and this is what following the video looks like as a starting point.
 - [[https://www.browserless.io/][browserless]] for website scraping
 - [[https://openai.com/][Chat GPT]]
 - [[https://render.com][render]] for deployment
+- [[https://www.langchain.com/][LangChain]] core logic library driving the agent
 
-* Running
+* Project Setup
+Make a copy of ~example.env~ to ~.env~ in the root of the project, and update the values with the appropriate values.
+
+** API Keys
+This project relies on API keys from the following services.
+- [[https://serper.dev/][serper]]
+- [[https://www.browserless.io/][browserless]]
+- [[https://openai.com/][Chat GPT]]
+
+** Running
+Note: when running the first time, streamlit will ask for an email address. This is optional, just hit enter.
 #+begin_src sh
+pipenv install
 pipenv shell
 streamlit run agent.py
 #+end_src
