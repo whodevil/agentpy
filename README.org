@@ -1,0 +1,17 @@
+#+title: AI Agent
+
+I was watching a [[https://www.youtube.com/watch?v=ogQUlS7CkYA][youtube video]] on building AI agents,
+and this is what following the video looks like as a starting point.
+
+* Technology
+- [[https://streamlit.io/][streamlit]] for UI
+- [[https://serper.dev/][serper]] for search
+- [[https://www.browserless.io/][browserless]] for website scraping
+- [[https://openai.com/][Chat GPT]]
+- [[https://render.com][render]] for deployment
+
+* Running
+#+begin_src sh
+pipenv shell
+streamlit run agent.py
+#+end_src
